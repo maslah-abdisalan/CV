@@ -1,0 +1,134 @@
+*{
+margin:0;
+padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    background: #efefef;
+    padding-top: 10px;
+
+}
+
+#header{
+    height: 450px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-image: url("./img/love.jpg");
+    background-size: cover;
+}
+
+#header p{
+    margin:5px;
+}
+
+.section{
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 96%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+h1{
+    color: #990021;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 30px;
+
+}
+
+h1 span{
+    border: 4px solid #990021;
+    padding: 10px;
+}
+
+h1 span:hover{
+    color: #ffffff;
+    background: red;
+}
+
+.qoute{
+    text-align: right;
+}
+
+ul{
+    padding-left: 30px;
+}
+
+ul li{
+    font-weight: bold;
+}
+
+progress{
+    width: 90%;
+    height: 20px;
+    color: yellow;
+    background: #efefef;
+}
+
+progress::-webkit-progress-bar{
+    background: #efefef;
+}
+
+progress::-webkit-progress-value{
+    background: yellow;
+}
+
+table{
+    width: 100%;
+    background: greenyellow;
+    text-align: center;
+    table-layout: fixed;
+}
+
+td,th{
+    background: #ffffff;
+}
+
+.highlight{
+    background: indigo;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+form{
+    text-align: center;
+    color: #cecece;
+}
+
+input, textarea{
+    width: 70%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: palegoldenrod;
+    border: solid 1px #cecece;
+    font-size: 12px;
+    outline: none;
+    color: black;
+}
+
+input{
+    height: 45px;
+}
+
+textarea{
+    height: 100px;
+    padding: 10px;
+    color: black;
+}
+
+.submit{
+    font-size: 25px;
+    font-weight: bold;
+    background: #990021;
+    color: white;
+}
+
+.submit:hover{
+    background: green;
+    color: #990021;
+}
